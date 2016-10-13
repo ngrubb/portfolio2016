@@ -92,20 +92,58 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Custom styles
    ========================================================================== */
 
+/*
+color scheme:
+green     : #006442 / #015248
+dark grey : #6C7A89 / 414141
+brown     : #716659 / #47413A
+*/
 
 
+section {
+  padding: 40px;
+  clear: both;
+}
 
+.feature-image img {
+  height: 256px;
+}
 
+.thumbs {
+  margin-top: 20px;
+}
 
+.thumbs img {
+  border: 1px solid black;
+  width: 100%;
+  height: 150px;
+}
 
+.contact-info,
+.contact-form {
+  border: 1px solid black;
+}
 
+footer {
+  padding: 20px;
+  background: #006442;
+}
 
+footer ul {
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+}
+footer li {
+  float: left;
 
-
-
+}
+footer li a {
+  color: white;
+}
 
 
 

@@ -3,24 +3,136 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <title>Noah Grubb | Web Developer</title>
+        <meta name="description" content="The web portfolio of Noah Grubb, a developer based in Philadelphia, PA">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/flat-ui.css">
+        <link rel="stylesheet" href="css/ui-kit/ui-kit-header/css/style.css">
+        <link rel="stylesheet" href="css/ui-kit/ui-kit-content/css/style.css">
+        <link rel="stylesheet" href="css/ui-kit/ui-kit-footer/css/style.css">
         <link rel="stylesheet" href="css/main.css">
+
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="page-wrapper">
+
+          <!-- footer -->
+          <header>
+            <div class="container">
+              <div class="row">
+                  <div class="navbar col-sm-12" role="navigation">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle"></button>
+                      <a class="brand" href="#"><img src="img/logo@2x.png" width="50" height="50" alt=""> Noah Grubb</a>
+                    </div>
+                    <div class="collapse navbar-collapse pull-right">
+                      <ul class="nav pull-left">
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#work">work</a></li>
+                        <li><a href="#contact">contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </header>
+
+          <!-- about -->
+          <section id="about">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in aliquam nisl, vitae placerat ligula. Aliquam sagittis euismod augue ac venenatis. Nulla eros est, scelerisque quis porta vitae, dictum sit amet lorem. Morbi lectus dolor, condimentum quis risus sit amet, pretium facilisis nisi. Vestibulum finibus massa eget ex congue interdum. In ornare mi sed massa condimentum eleifend. Curabitur tincidunt diam quis egestas porttitor. Nulla molestie dignissim sollicitudin. Cras accumsan tincidunt ligula id fermentum.<p>
+                    </div>
+                  </div>
+              </div>
+          </section>
+
+          <!-- my work -->
+          <section id="work">
+              <div class="container">
+                  <div class="row">
+                    <h3>Some of my work</h3>
+                  </div>
+
+                  <div class="row feature">
+                    <div class="col-sm-7 col-xs-12 feature-image" style="border: 1px solid black">
+                      <img src="" />
+                    </div>
+
+                    <div class="col-sm-5 col-xs-12 feature-content" style="border: 1px solid black" >
+                      <h4>Test Title</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in aliquam nisl, vitae placerat ligula. Aliquam sagittis euismod augue ac venenatis. Nulla eros est, scelerisque quis porta vitae, dictum sit amet lorem.</p>
+                    </div>
+
+                  </div>
+
+                  <div class="row thumbs">
+                    <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6 item" >
+                      <img src="" />
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6 item" >
+                      <img src="" />
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6 item" >
+                      <img src="" />
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6 item" >
+                      <img src="" />
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6 item" >
+                      <img src="" />
+                    </div>
+                  </div>
+              </div>
+          </section>
+
+          <!-- contact -->
+          <section id="contact">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 contact-info">
+                      <h3>Get in touch</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in aliquam nisl, vitae placerat ligula. Aliquam sagittis euismod augue ac venenatis.</p>
+                      <hr>
+                    </div>
+                    <div class="col-md-6 contact-form">
+                      <h3>Mail me</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in aliquam nisl, vitae placerat ligula. Aliquam sagittis euismod augue ac venenatis.</p>
+                    </div>
+                  </div>
+              </div>
+          </section>
+
+          <!-- footer -->
+          <footer>
+              <div id="container">
+                  <div class="row">
+                    <ul class="nav footer-nav">
+                      <li><a href="#about">about</a></li>
+                      <li><a href="#work">work</a></li>
+                      <li><a href="#contact">contact</a></li>
+                    </ul>
+                  <div>
+              </div>
+          </footer>
+
+
+        </div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
@@ -36,5 +148,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+
     </body>
 </html>
