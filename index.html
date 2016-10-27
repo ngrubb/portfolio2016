@@ -12,13 +12,14 @@
 
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/flat-ui.css">
-        <link rel="stylesheet" href="css/ui-kit/ui-kit-header/css/style.css">
-        <link rel="stylesheet" href="css/ui-kit/ui-kit-content/css/style.css">
-        <link rel="stylesheet" href="css/ui-kit/ui-kit-footer/css/style.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/flat-ui.css">
+        <link rel="stylesheet" type="text/css" href="css/ui-kit/ui-kit-header/css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/ui-kit/ui-kit-content/css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/ui-kit/ui-kit-footer/css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/portfolio.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -36,14 +37,13 @@
               <div class="row">
                   <div class="navbar col-sm-12" role="navigation">
                     <div class="navbar-header">
-                      <button type="button" class="navbar-toggle"></button>
-                      <a class="brand" href="#"><img src="img/logo@2x.png" width="50" height="50" alt=""> Noah Grubb</a>
+                      <a class="brand" href="http://sailwind.digital"><img src="img/sailwind-notext.svg" width="50" height="50" alt=""> Noah Grubb</a>
                     </div>
                     <div class="collapse navbar-collapse pull-right">
                       <ul class="nav pull-left">
-                        <li><a href="#about">about</a></li>
-                        <li><a href="#work">work</a></li>
-                        <li><a href="#contact">contact</a></li>
+                        <!-- <li><a href="#about">About</a></li> -->
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
                       </ul>
                     </div>
                   </div>
@@ -51,7 +51,7 @@
             </div>
           </header>
 
-          <!-- about -->
+          <!-- #about
           <section id="about">
               <div class="container">
                   <div class="row">
@@ -61,85 +61,83 @@
                   </div>
               </div>
           </section>
+          -->
 
-          <!-- my work -->
+          <!-- #work -->
           <section id="work">
               <div class="container">
-                  <div class="row">
-                    <h3>Some of my work</h3>
-                  </div>
 
+                  <!-- feature box (initially hidden) -->
                   <div class="row feature">
-                    <div class="col-sm-7 col-xs-12 feature-image" style="border: 1px solid black">
+                    <div class="col-sm-9 col-xs-12 feature-image">
                       <img src="" />
                     </div>
 
-                    <div class="col-sm-5 col-xs-12 feature-content" style="border: 1px solid black" >
-                      <h4>Test Title</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in aliquam nisl, vitae placerat ligula. Aliquam sagittis euismod augue ac venenatis. Nulla eros est, scelerisque quis porta vitae, dictum sit amet lorem.</p>
+                    <div class="col-sm-3 col-xs-12 feature-content">
+                      <hgroup>
+                        <h3 class="feature-title"></h3>
+                        <h4>Completed as a member of <span class="feature-company"></span></h4>
+                      </hgroup>
+                      <p class="feature-description"></p>
+                      <a href="#" class="btn feature-link" target="_blank">View Site</a>
+                      <a href="#" class="btn feature-code" target="_blank">Download Code</a>
                     </div>
-
                   </div>
 
-                  <div class="row thumbs">
-                    <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6 item" >
-                      <img src="" />
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 item" >
-                      <img src="" />
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 item" >
-                      <img src="" />
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 item" >
-                      <img src="" />
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 item" >
-                      <img src="" />
+                  <div id="projects">
+                    <div class="loading-icon">
+                      <span class="helper"></span>
+                      <img src="img/gears.gif" />
                     </div>
                   </div>
+
               </div>
           </section>
 
-          <!-- contact -->
+          <!-- #contact -->
           <section id="contact">
               <div class="container">
                   <div class="row">
-                    <div class="col-md-6 contact-info">
-                      <h3>Get in touch</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in aliquam nisl, vitae placerat ligula. Aliquam sagittis euismod augue ac venenatis.</p>
-                      <hr>
+
+                    <div class="contact-info">
+                      <h3 class="pull-left">Get in touch: </h3>
+                      <ul class="social-icons pull-left">
+                          <li>
+                            <a href="mailto:noah@sailwind.digital">
+                              <span class="fui-mail"></span>
+                            </a>
+                          <li>
+                            <a href="https://github.com/ngrubb" target="_blank">
+                              <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://www.linkedin.com/in/ngrubb" target="_blank">
+                              <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                          </li>
+                      </ul>
+
                     </div>
-                    <div class="col-md-6 contact-form">
-                      <h3>Mail me</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in aliquam nisl, vitae placerat ligula. Aliquam sagittis euismod augue ac venenatis.</p>
-                    </div>
+
                   </div>
               </div>
           </section>
 
-          <!-- footer -->
-          <footer>
-              <div id="container">
-                  <div class="row">
-                    <ul class="nav footer-nav">
-                      <li><a href="#about">about</a></li>
-                      <li><a href="#work">work</a></li>
-                      <li><a href="#contact">contact</a></li>
-                    </ul>
-                  <div>
-              </div>
-          </footer>
-
-
         </div>
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="https://unpkg.com/react@15.3.1/dist/react.min.js"></script>
+        <script src="https://unpkg.com/react-dom@15.3.1/dist/react-dom.min.js"></script>
+        <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+        <script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
+        <script src="https://unpkg.com/remarkable@1.7.1/dist/remarkable.min.js"></script>
+        <script src="js/portfolio.js"></script>
+        <script src="js/data.js"></script>
+        <script type="text/babel" src="js/projects.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -148,6 +146,7 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+        -->
 
     </body>
 </html>
